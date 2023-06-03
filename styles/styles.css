@@ -7,6 +7,15 @@ p {
     padding: 0;
     margin: 0;
 }
+
+.header{
+    width: 1200px;
+    background-color: #1e2939;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto;
+}
 /* main styles */
 
 .main{
@@ -19,7 +28,8 @@ p {
 .main-content{
     background-color: #fff; 
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 40px 90px;
+    padding: 40px 40px;
+    width: 900px;
 }
 
 /* about styles  */
@@ -30,19 +40,21 @@ p {
 
 .about-position{
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.22;
-    color: #000;
+    font-size: 20px;
+    line-height: 1.71;
+    color: #fff;
     margin-bottom: 20px;
     text-transform: uppercase;
+    margin-left: 40px;
 }
 
 .about-name{
     font-weight: 700;
     font-size: 45px;
     line-height: 1.22;
-    color: #000;
+    color: #fff;
     margin-bottom: 25px;
+    margin-left: 40px;
 }
 
 .about-description{
@@ -167,13 +179,13 @@ p {
 .sidebar{
     background-color: #1e2939;
     padding-top: 40px;
-    width: 370px;
+    width: 300px;
 }
 
-.photo{
+/* .photo{
     width: 370px;
     margin-bottom: 50px;
-}
+} */
 
 .contacts,.tech-skills, .soft-skills {
     margin-left: 40px;
