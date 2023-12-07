@@ -88,6 +88,10 @@ p {
     margin-left: 10px;
 }
 
+.project-link:hover{
+    color:#fb6d3a;
+}
+
 .projects-item{
     font-weight: 700;
     font-size: 14px;
@@ -248,6 +252,10 @@ p {
     color: #fff;
     opacity: 0.5;
     margin-right: 10px;
+}
+
+.contact-link:hover{
+    opacity: 1;
 }
 
 .contact-link-non{
